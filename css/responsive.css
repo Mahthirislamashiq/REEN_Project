@@ -1,0 +1,680 @@
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+
+/********************** 
+Header Section Code start
+***********************/
+
+.header-section .top-header .social-info {
+    display: block;
+    margin: 0px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.header-section .top-header .top-info {
+    display: block;
+    margin: 0px;
+    text-align: center;
+}
+/********************** 
+Header Section Code End
+***********************/
+
+/********************** 
+Slider Section Code Start
+***********************/
+.d-none {
+    display: block!important;
+}
+
+.slider .carousel-caption {
+    bottom: -7%;
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+
+}
+.slider .carousel-caption h2 {
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+.slider .carousel-caption p {
+    font-size: 10px;
+    letter-spacing: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 11px;
+    font-weight: 400;
+    color: #a3b1bf;
+    margin-top: -5px;
+    margin-bottom: 10px;;
+}
+
+.slider .carousel-caption .btn-info {
+    padding: 3px 9px;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    border-radius: 3px;
+    font-size: 10px;
+    letter-spacing: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;   
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.carousel-indicators {
+    
+    bottom: -9px;
+}
+
+.slider .carousel-caption .text-color{
+    font-size: 6px;
+    letter-spacing: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 11px;
+    font-weight: 400;
+    color: #ffffff;
+  
+    }
+
+    
+.carousel-indicators li {
+    box-sizing: border-box;
+    
+    }
+    .slider .carousel-caption .text-color1 {
+    width: 68%;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #506a85;
+    text-transform: uppercase;
+}
+    .slider .carousel-caption .text-color2 {
+    font-size: 7px;
+    letter-spacing: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 8px;
+    font-weight: 400;
+    color: #506a85;
+    margin-top: 0px;
+}
+.slider .carousel-caption .text-color3 {
+    font-size: 16px;
+    position: absolute;
+    background: #506a85;
+    right: -1px;
+    bottom: 113px;
+    height: 20px;
+    width: 136px;
+    text-align: center;
+}
+.slider .carousel-caption .text-color4 {
+    font-size: 16px;
+    position: absolute;
+    background: #506a85;
+    right: -1px;
+    bottom: 90px;
+    height: 20px;
+    width: 161px;
+    text-align: center;
+}
+.slider .carousel-caption .text-color5 {
+    font-size: 7px;
+    letter-spacing: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 10px;
+}
+/********************** 
+Slider Section Code End
+***********************/
+
+/********************** 
+Header Section Code End
+***********************/
+
+/********************** 
+Beautiful Section code Start
+***********************/
+.beautiful-section .beautiful-title {
+    padding: 0px 0px 25px;
+}
+.beautiful-section .beautiful-title h2 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 30px;
+}
+
+.beautiful-section .beautiful-title p {
+    font-size: 8px;
+    letter-spacing: 0px;
+    line-height: 15px;
+    
+}
+.beautiful-inner .media-body h5 {
+    font-size: 24px;
+    line-height: 34px;
+    
+}
+.beautiful-inner .media-body {
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+/********************** 
+Beautiful Section code End
+***********************/
+
+/********************** 
+latest Section code Start
+***********************/
+
+.latest-section .card {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.latest-section .latest-title {
+    padding: 0px 0px 30px;
+}
+
+.latest-section .latest-title h2 {
+    font-size: 18px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    
+}
+.latest-section .latest-title p {
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 20px;
+
+}
+
+.latest-section .card .card-body .card-title {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 24px;
+    
+}
+
+/********************** 
+latest Section code End
+***********************/
+
+
+/********************** 
+Get-in-touch Section code Start
+***********************/
+.get-in-touch .get-in-touch-title h2 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    line-height: 20px;
+    
+}
+.get-in-touch .get-in-touch-title p {
+    font-size: 9px;
+    letter-spacing: 0px;
+    line-height: 14px;
+    
+}
+.get-in-touch .get-in-touch-title .btn-info {
+    
+    margin-top: 10px;
+}
+/********************** 
+Get-in-touch Section code End
+***********************/
+
+/********************** 
+footer Section code Start
+***********************/
+
+.footer-section .footer-inner .from-group .form-control {
+    width: 100%;
+
+}
+.footer-section .footer-inner .btn-info {
+    position: absolute;
+    top: 133px;
+    right: 6%;
+}
+.footer-section .footer-bootom p {
+    text-align: center;
+}
+.footer-section .footer-bootom ul {
+    text-align: center;
+}
+
+
+/********************** 
+footer Section code End
+***********************/
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+
+/********************** 
+Header Section code Start
+***********************/
+.header-section .top-header .social-info {
+    display: block;
+    margin: 0px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.header-section .top-header .top-info {
+    display: block;
+    margin: 0px;
+    text-align: center;
+}
+.d-none {
+    display: block!important;
+}/********************** 
+Header Section code End
+***********************/
+
+/********************** 
+Slider Section code Start
+***********************/
+
+.slider .carousel-caption {
+    bottom: 10%;
+}
+
+.slider .last-slider{
+        bottom: 22%;
+}
+
+.carousel-caption {
+    position: absolute;
+    z-index: 10;
+    color: #fff;
+    text-align: center;
+
+}
+.slider .carousel-caption h2 {
+    font-size: 20px;
+    letter-spacing: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 17px;
+    font-weight: 700;
+    color: #ffffff;
+    text-transform: uppercase;
+
+}
+.slider .carousel-caption p {
+    font-size: 11px;
+    letter-spacing: 0px;
+    line-height: 14px;
+    margin-top: 0px;
+    margin-bottom: 12px;    
+}
+
+.slider .carousel-caption .btn-info {
+    padding: 7px 10px;
+    background: #00bc9c;
+    border: 1px solid #00bc9c;
+    border-radius: 3px;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;   
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+.carousel-indicators {
+    
+    bottom: 14px;
+}
+
+.slider .carousel-caption .text-color{
+    font-size: 10px;
+    letter-spacing: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 12px;
+    font-weight: 400;
+    color: #ffffff;
+  
+    }
+
+    
+    .slider .carousel-caption .text-color1 {
+    width: 68%;
+    font-size: 16px;
+    letter-spacing: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 20px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #506a85;
+    text-transform: uppercase;
+}
+    .slider .carousel-caption .text-color2 {
+    font-size: 10px;
+    letter-spacing: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 14px;
+    font-weight: 400;
+    color: #506a85;
+    margin-top: -5px;
+}
+ 
+.slider .carousel-caption .text-color3 {
+    font-size: 20px;
+    position: absolute;
+    background: #506a85;
+    right: -1px;
+    bottom: 130px;
+    height: 20px;
+    width: 150px;
+    text-align: center;
+}
+.slider .carousel-caption .text-color4 {
+    font-size: 20px;
+    position: absolute;
+    background: #506a85;
+    right: -1px;
+    bottom: 107px;
+    height: 20px;
+    width: 170px;
+    text-align: center;
+}
+.slider .carousel-caption .text-color5 {
+    font-size: 10px;
+    letter-spacing: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 12px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-top: 10px;
+}
+/********************** 
+Slider Section code End
+***********************/
+/********************** 
+Beautiful Section code Start
+***********************/
+
+.beautiful-section .beautiful-title {
+    width: 100%;
+    padding: 0px 0px 30px;
+    text-align: center;
+}
+
+.beautiful-section .beautiful-title h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 34px;
+    font-weight: 600;
+    color: #506a85;
+}
+
+.beautiful-section .beautiful-title p {
+    font-size: 11px;
+    letter-spacing: 0px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 20px;
+    font-weight: 400;
+    color: #506a85;
+}
+
+.beautiful-inner .media-body h5 {
+    font-size: 24px;
+    line-height: 34px;
+    
+}
+.beautiful-inner .media-body {
+    font-size: 11px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+/********************** 
+Beautiful Section code End
+***********************/
+
+/********************** 
+latest Section code Start
+***********************/
+.latest-section .latest-title h2 {
+    font-size: 25px;
+    letter-spacing: 1px;  
+    line-height: 34px;
+    
+}
+.latest-section .latest-title p {
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 25px;
+}
+.latest-section .card {
+    width: 100%;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.latest-section .card .card-body .card-title {
+    font-size: 18px;
+    letter-spacing: 1px;
+    line-height: 34px;
+
+   
+}
+/********************** 
+latest Section code End
+***********************/
+
+/********************** 
+Get-in-Touch Section code Start
+***********************/
+
+.get-in-touch .get-in-touch-title h2 {
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 34px;
+    
+}
+.get-in-touch .get-in-touch-title p {
+    font-size: 11px;
+    letter-spacing: 1px;
+    line-height: 18px;
+}
+.get-in-touch .get-in-touch-title .btn-info {
+
+    margin-top: 10px;
+}
+
+/********************** 
+Get-in-Touch Section code End
+***********************/
+
+
+/********************** 
+footer Section code Start
+***********************/
+
+.footer-section .footer-inner h5 {
+    margin-top: 25px;
+}
+.card-img-top {
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    width: 50%;
+}
+.footer-section .footer-inner .from-group .form-control {
+    width: 100%;
+}
+.footer-section .footer-inner .btn-info {
+    position: absolute;
+    top: 149px;
+    right: 4%;
+}
+.footer-section .footer-bootom p {
+    text-align: center;
+}
+.footer-section .footer-bootom ul {
+    text-align: center;
+}
+
+
+/********************** 
+footer Section code End
+***********************/
+  
+  
+}
+
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+/********************** 
+Slider Section code Start
+***********************/
+.slider .carousel-caption {
+    bottom: 6%;
+}
+.slider .carousel-caption p {
+    font-size: 13px;
+    letter-spacing: 0px;
+    line-height: 20px;
+}
+
+.slider .carousel-caption .text-color {
+    font-size: 14px;
+    letter-spacing: 0px;
+    line-height: 26px;
+   
+}
+
+.slider .carousel-caption .text-color1 {
+    width: 80%;
+    letter-spacing: 3px;
+    line-height: 60px;
+}
+.slider .carousel-caption .text-color4 {
+    font-size: 50px;
+    position: absolute;
+    background: #506a85;
+    right: 0;
+    bottom: 170px;
+    height: 63px;
+    width: 520px;
+    text-align: center;
+}
+.slider .carousel-caption .text-color3 {
+    font-size: 50px;
+    position: absolute;
+    background: #506a85;
+    right: 0;
+    bottom: 238px;
+    height: 63px;
+    width: 465px;
+    text-align: center;
+}
+.slider .last-slider {
+    bottom: 30%;
+}
+.slider .carousel-caption .btn-info {
+    margin-top: 0px;
+}
+
+/********************** 
+Slider Section code End
+***********************/
+
+/********************** 
+Beautiful Section code Start
+***********************/
+.beautiful-inner .media-body {
+    font-size: 8px;
+    font-family: 'Source Sans Pro', sans-serif;
+    line-height: 18px;
+    font-weight: 400;
+    color: #73879c;
+}
+/********************** 
+Beautiful Section code End
+***********************/
+
+/********************** 
+Footer Section code Start
+***********************/
+.footer-section .footer-inner p {
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 400;
+    color: #a3b1bf;
+    margin-top: 20px;
+}
+.footer-section .footer-inner .from-group .form-control {
+    width: 118%;
+    height: auto !important;
+    padding: 10px 10px;
+    border: 1px solid #4e5c6c;
+    background: #4e5c6c;
+    color: #ffffff;
+    border-radius: 0px;
+    margin-top: 10px;
+}
+.footer-section .footer-inner .btn-info {
+    position: absolute;
+    top: 156px;
+    right: -5%;
+    padding: 6px 2px;
+    background: #00bc9c;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+/********************** 
+Footer Section code End
+***********************/
+  
+}

@@ -1,0 +1,610 @@
+ /*
+Theme name: ;
+Author: Md Mahthir Islam;
+WebSite link: ;
+Publish Date: ;
+*/
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        font-family: sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Lato', sans-serif;
+    }
+    
+    a {
+        font-family: 'Source Sans Pro', sans-serif;
+        font-family: 'Lato', sans-serif;
+        text-decoration: none;
+    }
+    
+    a:hover {
+        text-decoration: none;
+    }
+
+
+        /***************************
+          Header Section Code Start
+    ****************************/
+
+    .header-section{
+        width: 100%; 
+    }
+    .top-header{
+        width: 100%;
+        padding: 10px 0px;
+        background: #f5f7fa;
+    }
+    .header-section .top-header .top-info{
+        display: block;
+        margin: 0px;
+    }
+    .header-section .top-header .top-info li{
+        display: inline-block;
+        list-style: none;
+    }
+    .header-section .top-header .top-info li a{
+        font-size: 13px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        color: #506a85;
+        margin-right: 10px;
+    }
+    .header-section .top-header .top-info li a i{
+        margin-right: 5px;
+    }
+
+    .header-section .top-header .social-info{
+        display: block;
+        margin: 0px;
+        text-align: right;
+    }
+    .header-section .top-header .social-info li{
+        display: inline-block;
+        list-style: none;
+    }
+    .header-section .top-header .social-info li a{
+        font-size: 13px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        color: #506a85;
+        margin-left: 15px;
+    }
+
+    .header-section .top-header .social-info li a:hover{
+        color: #00bc9c;
+    }
+
+    .main-manu{
+        width: 100%;
+        padding: 10px 0px;
+    }
+    .main-manu .bg-light {
+        background: transparent !important;
+    }
+    .main-manu .navbar-nav .nav-item .nav-link{
+        font-size: 15px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        color: #506a85;
+        margin-left: 24px;
+    }
+
+  .main-manu .navbar-nav .nav-item .nav-link .active{
+        font-weight: 700;
+        color: #506a85;
+    }
+
+    .main-manu .fa-search{
+        font-size: 15px;
+        color: #506a85;
+    }
+    
+
+
+
+    /***************************
+      Header Section Code End
+    ****************************/
+
+    /***************************
+       Slider Section Code Start
+    ****************************/
+
+    .slider{
+        width: 100%;
+    }
+
+    .slider .container-fluid{
+        padding: 0px; ;
+    }
+
+    .slider .carousel-caption{
+        bottom: 30%;
+    }
+    .slider .carousel-caption h2{
+        font-size: 40px;
+        letter-spacing: 3px;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 50px;
+        font-weight: 700;
+        color: #ffffff;
+        text-transform: uppercase;
+
+    }
+    .slider .carousel-caption p{
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 26px;
+        font-weight: 400;
+        color: #a3b1bf;
+    }
+    .slider .carousel-caption .text-color{
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 26px;
+        font-weight: 400;
+        color: #ffffff;
+    }
+    .slider .carousel-caption .text-color1{
+        width: 44%;
+        font-size: 50px;
+        letter-spacing: 3px;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 60px;
+        font-weight: 700;
+        color: #ffffff;
+        background: #506a85;
+        text-transform: uppercase;
+    }
+
+    .slider .carousel-caption .text-color2{
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 26px;
+        font-weight: 400;
+        color: #506a85;
+        margin-top: 15px;
+    }
+.slider .carousel-caption .text-color3 {
+    font-size: 50px;
+    position: absolute;
+    background: #506a85;
+    right: 0;
+    bottom: 270px;
+    height: 63px;
+    width: 465px;
+    text-align: center;
+}
+.slider .carousel-caption .text-color4 {
+    font-size: 50px;
+    position: absolute;
+    background: #506a85;
+    right: 0;
+    bottom: 198px;
+    height: 63px;
+    width: 520px;
+    text-align: center;
+}
+
+    .slider .carousel-caption .text-color5{
+        font-size: 16px;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 26px;
+        font-weight: 400;
+        color: #ffffff;
+        margin-top: 10px;
+    }
+
+    .slider .last-slider{
+        bottom: 55%;
+    }
+
+
+    .slider .carousel-caption .btn-info{
+        padding: 15px 35px;
+        background: #00bc9c;
+        border: 1px solid #00bc9c;
+        border-radius: 3px;
+        font-size:14px;
+        letter-spacing: 3px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+
+
+    .slider .carousel-caption .btn-info:hover, 
+    .slider .carousel-caption .btn-info:focus{
+        
+        border: 1px solid #00bc9c;
+        background: transparent;
+        color: #00bc9c;
+        transition: 2s;
+    }
+
+
+    /***************************
+       Slider Section Code End
+    ****************************/
+
+     /***************************
+       Beautiful Section Code Start
+    ****************************/
+
+    .beautiful-section{
+        width: 100%;
+        padding: 80px 0px;
+
+    }
+
+    .beautiful-section .beautiful-title{
+        width: 100%;
+        padding: 0px 0px 60px;
+        text-align: center;
+
+    }
+
+    .beautiful-section .beautiful-title h2{
+        font-size: 30px;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 34px;
+        font-weight: 600;
+        color: #506a85;
+    
+
+    }
+    .beautiful-section .beautiful-title p{
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 26px;
+        font-weight: 400;
+        color: #506a85;
+    }
+
+    .beautiful-inner{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .beautiful-inner .media-body{
+        font-size: 14px;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 26px;
+        font-weight: 400;
+        color: #73879c;
+    }
+
+    .beautiful-inner .media-body h5{
+        font-size: 30px;
+        line-height: 34px;
+        font-weight: 600;
+        font-family: 'Source Sans Pro', sans-serif;
+        color: #506a85;
+    }
+
+     /***************************
+       Beautiful Section Code End
+    ****************************/
+
+     /***************************
+       Latest Section Code Start
+    ****************************/
+
+
+    .latest-section{
+        width: 100%;
+        padding: 80px 0px;
+        background: #f2f5f7;
+
+    }
+
+    .latest-section .latest-title{
+        width: 100%;
+        padding: 0px 0px 60px;
+        text-align: center;
+
+    }
+
+    .latest-section .latest-title h2{
+        font-size: 30px;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 34px;
+        font-weight: 600;
+        color: #506a85;
+    
+
+    }
+    .latest-section .latest-title p{
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 26px;
+        font-weight: 400;
+        color: #506a85;
+    }
+
+    .latest-section .card{
+        width: 100%;
+        text-align: center;
+    }
+    .latest-section .card .card-body .card-title{
+        font-size: 22px;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 34px;
+        font-weight: 700;
+        color: #506a85;
+    }
+
+    .latest-section .card .card-body .card-text{
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 26px;
+        font-weight: 400;
+        color: #9ca9b7;
+    }
+    .latest-section .owl-carousel{
+        width: 100%;
+        padding: 80px 0px;
+    }
+    .latest-section .owl-carousel .item{
+        border: 1px solid #00bc9c;
+        margin-bottom: 30px;
+    }
+    .latest-section .owl-theme .owl-dots .owl-dot.active span,
+    .latest-section .owl-theme .owl-dots .owl-dot:hover span {
+    background: #00bc9c;
+}
+
+    /***************************
+       Latest Section Code End
+    ****************************/
+
+/***************************
+       Get In Touch Section Code Start
+    ****************************/
+
+    .get-in-touch{
+        width: 100%;
+        padding: 80px 0px;
+    }
+    .get-in-touch .get-in-touch-title{
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .get-in-touch .get-in-touch-title h2{
+        font-size: 30px;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 34px;
+        font-weight: 700;
+        color: #506a85;
+    
+
+    }
+    .get-in-touch .get-in-touch-title p{
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-family: 'Source Sans Pro', sans-serif;
+        line-height: 26px;
+        font-weight: 400;
+        color: #506a85;
+    }
+
+    .get-in-touch .get-in-touch-title .btn-info{
+        padding: 15px 35px;
+        background: #00bc9c;
+        border: 1px solid #00bc9c;
+        border-radius: 3px;
+        font-size: 14px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 700;
+        color: #ffffff;
+        text-transform: uppercase;
+        margin-top: 20px;
+    }
+
+
+    .get-in-touch .get-in-touch-title .btn-info:hover, 
+    .get-in-touch .get-in-touch-title .btn-info:focus{
+        
+        border: 1px solid #00bc9c;
+        background: transparent;
+        color: #00bc9c;
+        transition: 2s;
+    }
+
+/***************************
+       Get In Touch Section Code End
+    ****************************/
+
+
+    /********************** 
+Footer Here Section code Start
+***********************/ 
+
+.footer-section{
+    width: 100%;
+}
+.top-footer{
+    padding: 80px 0px;
+    background: #2f4052;
+}
+.footer-section .footer-inner{
+    width: 100%;
+}
+.footer-section .footer-inner h5 {
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+.footer-section .footer-inner p{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    color: #a3b1bf;
+    margin-top: 20px;
+}
+
+.footer-inner a{
+    color: #a3b1bf;
+     
+}
+.footer-inner a i{
+    margin-left: 5px; 
+}
+
+
+.footer-section .footer-inner .top-info{
+        display: block;
+        margin: 0px;
+    }
+.footer-section .footer-inner .top-info li{
+        
+        list-style: none;
+    }
+.footer-section .footer-inner .top-info li{
+        font-size: 13px;
+        font-family: 'Source Sans Pro', sans-serif;
+        font-weight: 600;
+        color: #a3b1bf;
+        margin-right: 10px;
+    }
+.footer-section .footer-inner .top-info li i{
+        margin-right: 5px;
+    }
+
+.footer-section .footer-inner .card{
+    border-radius: 0px;
+    background: transparent;
+    margin: 2px 2px;
+}
+
+
+.footer-section .footer-inner{
+    width: 100%;
+    
+}
+.footer-section .footer-inner .from-group{
+    width: 100%;
+    position: relative;
+}
+.footer-section .footer-inner .from-group .form-control{
+    width: 125%;
+    height: auto !important;
+    padding: 10px 10px;
+    border: 1px solid #4e5c6c;
+    background: #4e5c6c;
+    color: #ffffff;
+    border-radius: 0px;
+    margin-top: 20px;
+}
+.footer-section .footer-inner .btn-info {
+   position: absolute;
+    top: 141px;
+    right: -16%;
+    padding: 7px 18px;
+    background: #00bc9c;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.footer-section .footer-inner .btn-info:hover, 
+.footer-section .footer-inner .btn-info:focus{
+        
+        border: 1px solid #00bc9c;
+        background: transparent;
+        color: #00bc9c;
+        transition: 2s;
+    }
+
+
+.footer-section .footer-bootom{
+    width: 100%;
+    padding: 20px 0px 7px 0px;
+    background: #283645;
+}
+.footer-section .footer-bootom p{
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #a3b1bf;
+    
+}
+.footer-section .footer-bootom ul{
+    text-align: right;
+}
+.footer-section .footer-bootom ul li{
+    display: inline-block;
+}
+.footer-section .footer-bootom ul li a{
+    font-size: 14px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    color: #a3b1bf;
+    margin-right: 8px;
+}
+
+.footer-section .footer-bootom ul li a i{
+    font-size: 6px;
+    color: #a3b1bf;
+    margin-left: 8px;
+}
+
+
+/********************** 
+Footer Here Section code End
+***********************/ 
+
+
+/********************** 
+Plugin code linking here Start
+***********************/ 
+
+.isStuck{
+    left:0px;
+    width:100%;
+    background: #eee;
+}
+
+.navbar-wrapper {
+    width: 100%;
+    margin-top:0px;
+    position: relative;
+    z-index: 15;
+
+}
+
+/********************** 
+Plugin code linking here End
+***********************/ 
